@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bapstore.Model", "Bapstore.Model\Bapstore.Model.csproj", "{D09F97E2-6A63-4908-9EBC-A03F0075AD4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bapstore.Data", "Bapstore.Data\Bapstore.Data.csproj", "{F59758BE-6CA1-4777-AB18-C8880290D64B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bapstore.Service", "Bapstore.Service\Bapstore.Service.csproj", "{45454EB2-C047-4784-9C76-AADD97950EE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bapstore.UnitTest", "Bapstore.UnitTest\Bapstore.UnitTest.csproj", "{17DE85FB-3A60-4C5F-84F0-2FCC3A3CBE4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bapstore.Web", "Bapstore.Web\Bapstore.Web.csproj", "{088328DF-CF98-48FD-AE49-77659EB7BA09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bapstore.Common", "Bapstore.Common\Bapstore.Common.csproj", "{36B50C36-42DE-4A74-82F5-227E57AA4EF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D09F97E2-6A63-4908-9EBC-A03F0075AD4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09F97E2-6A63-4908-9EBC-A03F0075AD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09F97E2-6A63-4908-9EBC-A03F0075AD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09F97E2-6A63-4908-9EBC-A03F0075AD4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59758BE-6CA1-4777-AB18-C8880290D64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59758BE-6CA1-4777-AB18-C8880290D64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59758BE-6CA1-4777-AB18-C8880290D64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59758BE-6CA1-4777-AB18-C8880290D64B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45454EB2-C047-4784-9C76-AADD97950EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45454EB2-C047-4784-9C76-AADD97950EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45454EB2-C047-4784-9C76-AADD97950EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45454EB2-C047-4784-9C76-AADD97950EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17DE85FB-3A60-4C5F-84F0-2FCC3A3CBE4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17DE85FB-3A60-4C5F-84F0-2FCC3A3CBE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17DE85FB-3A60-4C5F-84F0-2FCC3A3CBE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17DE85FB-3A60-4C5F-84F0-2FCC3A3CBE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{088328DF-CF98-48FD-AE49-77659EB7BA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088328DF-CF98-48FD-AE49-77659EB7BA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088328DF-CF98-48FD-AE49-77659EB7BA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088328DF-CF98-48FD-AE49-77659EB7BA09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B50C36-42DE-4A74-82F5-227E57AA4EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B50C36-42DE-4A74-82F5-227E57AA4EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B50C36-42DE-4A74-82F5-227E57AA4EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B50C36-42DE-4A74-82F5-227E57AA4EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97706CA5-9F93-4DED-8A11-B183C809A6D7}
+	EndGlobalSection
+EndGlobal
