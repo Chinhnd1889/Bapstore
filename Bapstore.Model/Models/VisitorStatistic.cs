@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Bapstore.Model.Models
 {
-    [Table("VisitorStatistics")]
+    [Table("VisitorStatistic")]
     public class VisitorStatistic
     {
         [Key]

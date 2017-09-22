@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Bapstore.Model.Models
 {
-    [Table("Posts")]
+    [Table("Post")]
     public class Post : Auditable
     {
         [Key]

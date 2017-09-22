@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Bapstore.Model.Models
 {
-    [Table("MenuGroups")]
+    [Table("MenuGroup")]
     public class MenuGroup
     {
         [Key]

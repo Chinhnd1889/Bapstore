@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Bapstore.Model.Models
 {
-    [Table("Products")]
+    [Table("Product")]
     public class Product : Auditable
     {
         [Key]

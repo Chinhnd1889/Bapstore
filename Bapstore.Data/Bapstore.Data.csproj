@@ -48,6 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BapstoreDbContext.cs" />
+    <Compile Include="Infrastructure\IDbFactory.cs" />
+    <Compile Include="Infrastructure\IRepository.cs" />
+    <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +63,13 @@
       <Project>{36b50c36-42de-4a74-82f5-227e57aa4ef1}</Project>
       <Name>Bapstore.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Bapstore.Model\Bapstore.Model.csproj">
+      <Project>{d09f97e2-6a63-4908-9ebc-a03f0075ad4a}</Project>
+      <Name>Bapstore.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repository\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

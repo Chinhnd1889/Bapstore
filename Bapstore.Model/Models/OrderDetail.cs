@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Bapstore.Model.Models
 {
-    [Table("OrderDetails")]
+    [Table("OrderDetail")]
     public class OrderDetail
     {
         [Key]
