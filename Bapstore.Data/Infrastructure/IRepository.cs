@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 
 namespace Bapstore.Data.Infrastructure
 {
-    public interface IRepository<T> where T : class
+    public interface Repository<T> where T : class
     {
         void Add(T entity);
 
