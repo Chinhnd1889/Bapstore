@@ -1,4 +1,5 @@
 ﻿using Bapstore.Model.Abstract;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Xml.Linq;
@@ -34,7 +35,11 @@ namespace Bapstore.Model.Models
 
         public decimal? PromotionPrice { get; set; }
 
+        public string Tags { get; set; }
+
         public int? Warranty { get; set; }
+
+        public int Qty { get; set; }
 
         [MaxLength(500)]
         public string Description { get; set; }
@@ -49,5 +54,7 @@ namespace Bapstore.Model.Models
 
         [ForeignKey("CategoryID")]
         public virtual ProductCategory ProductCategory { get; set; }
+
+        public virtual IEnumerable<ProductTag> ProductTags { set; get; }
     }
 }

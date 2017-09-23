@@ -3,7 +3,7 @@ using Bapstore.Model.Models;
 
 namespace Bapstore.Data.Repository
 {
-    public interface IMenuGroupRepository { }
+    public interface IMenuGroupRepository : IRepository<MenuGroup> { }
 
     public class MenuGroupRepository : RepositoryBase<MenuGroup>, IMenuGroupRepository
     {

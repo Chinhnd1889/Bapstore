@@ -3,7 +3,7 @@ using Bapstore.Model.Models;
 
 namespace Bapstore.Data.Repository
 {
-    public interface IOrderRepository { }
+    public interface IOrderRepository : IRepository<Order> { }
 
     public class OrderRepository : RepositoryBase<Order>, IOrderRepository
     {

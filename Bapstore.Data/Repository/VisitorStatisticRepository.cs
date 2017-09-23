@@ -3,7 +3,7 @@ using Bapstore.Model.Models;
 
 namespace Bapstore.Data.Repository
 {
-    public interface IVisitorStatisticRepository { }
+    public interface IVisitorStatisticRepository : IRepository<VisitorStatistic> { }
 
     public class VisitorStatisticRepository : RepositoryBase<VisitorStatistic>, IVisitorStatisticRepository
     {

@@ -3,7 +3,7 @@ using Bapstore.Model.Models;
 
 namespace Bapstore.Data.Repository
 {
-    public interface ITagRepository { }
+    public interface ITagRepository : IRepository<Tag> { }
 
     public class TagRepository : RepositoryBase<Tag>, ITagRepository
     {

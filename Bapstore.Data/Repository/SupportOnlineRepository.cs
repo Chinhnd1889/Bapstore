@@ -3,7 +3,7 @@ using Bapstore.Model.Models;
 
 namespace Bapstore.Data.Repository
 {
-    public interface ISupportOnlineRepository { }
+    public interface ISupportOnlineRepository : IRepository<SupportOnline> { }
 
     public class SupportOnlineRepository : RepositoryBase<SupportOnline>, ISupportOnlineRepository
     {

@@ -6,17 +6,13 @@ using System.Linq.Expressions;
 
 namespace Bapstore.Data.Infrastructure
 {
-    public abstract class RepositoryBase<T> : Repository<T> where T : class
+    public abstract class RepositoryBase<T> : IRepository<T> where T : class
     {
         #region Properties
         private BapstoreDbContext _dataContext;
         private readonly IDbSet<T> _dbSet;
 
-        protected IDbFactory DbFactory
-        {
-            get;
-            private set;
-        }
+        protected IDbFactory DbFactory { get; private set; }
 
         protected BapstoreDbContext DbContext
         {

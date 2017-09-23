@@ -3,7 +3,7 @@ using Bapstore.Model.Models;
 
 namespace Bapstore.Data.Repository
 {
-    public interface IFooterRepository { }
+    public interface IFooterRepository : IRepository<Footer> { }
 
     public class FooterRepository : RepositoryBase<Footer>, IFooterRepository
     {
