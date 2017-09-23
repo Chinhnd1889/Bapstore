@@ -6,11 +6,11 @@ namespace Bapstore.Data.Infrastructure
 {
     public interface IRepository<T> where T : class
     {
-        void Add(T entity);
+        T Add(T entity);
 
         void Update(T entity);
 
-        void Delete(T entity);
+        T Delete(T entity);
 
         T Delete(int id);
 

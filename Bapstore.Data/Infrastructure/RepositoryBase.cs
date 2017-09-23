@@ -27,9 +27,9 @@ namespace Bapstore.Data.Infrastructure
         }
 
         #region Implementation
-        public virtual void Add(T entity)
+        public virtual T Add(T entity)
         {
-            _dbSet.Add(entity);
+            return _dbSet.Add(entity);
         }
 
         public virtual void Update(T entity)
@@ -38,9 +38,9 @@ namespace Bapstore.Data.Infrastructure
             _dataContext.Entry(entity).State = EntityState.Modified;
         }
 
-        public virtual void Delete(T entity)
+        public virtual T Delete(T entity)
         {
-            _dbSet.Remove(entity);
+            return _dbSet.Remove(entity);
         }
         public virtual T Delete(int id)
         {

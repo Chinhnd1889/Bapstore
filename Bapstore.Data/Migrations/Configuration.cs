@@ -9,7 +9,7 @@ namespace Bapstore.Data.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(Bapstore.Data.BapstoreDbContext context)
