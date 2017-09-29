@@ -21,7 +21,7 @@ namespace Bapstore.Data.Repository
                         join pt in DbContext.PostTag
                         on p.ID equals pt.PostID
                         where pt.TagID == tag && p.Status
-                        orderby p.CreateAt descending
+                        orderby p.CreatedAt descending
                         select p;
             totalRow = query.Count();
             query = query.Skip((pageIndex - 1) * pageSize).Take(pageSize);

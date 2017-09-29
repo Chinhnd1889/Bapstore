@@ -35,9 +35,9 @@ namespace Bapstore.Model.Models
         [MaxLength(256)]
         public string PaymentMethod { get; set; }
 
-        public DateTime? CreateAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
 
-        public string CreateBy { get; set; }
+        public string CreatedBy { get; set; }
 
         public string PaymentStatus { get; set; }
 

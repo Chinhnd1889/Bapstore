@@ -27,6 +27,7 @@ namespace Bapstore.Data
         public DbSet<SystemConfig> SystemConfig { get; set; }
         public DbSet<Tag> Tag { get; set; }
         public DbSet<VisitorStatistic> VisitorStatistic { get; set; }
+        public DbSet<Error> Error { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

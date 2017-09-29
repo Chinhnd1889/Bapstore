@@ -4,10 +4,10 @@ namespace Bapstore.Model.Abstract
 {
     public interface IAuditable
     {
-        DateTime? CreateAt { get; set; }
-        string CreateBy { get; set; }
-        DateTime? UpdateAt { get; set; }
-        string UpdateBy { get; set; }
+        DateTime? CreatedAt { get; set; }
+        string CreatedBy { get; set; }
+        DateTime? UpdatedAt { get; set; }
+        string UpdatedBy { get; set; }
 
         string MetaKeyword { get; set; }
         string MetaDescription { get; set; }

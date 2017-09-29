@@ -5,15 +5,15 @@ namespace Bapstore.Model.Abstract
 {
     public abstract class Auditable : IAuditable
     {
-        public DateTime? CreateAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
 
         [MaxLength(256)]
-        public string CreateBy { get; set; }
+        public string CreatedBy { get; set; }
 
-        public DateTime? UpdateAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
 
         [MaxLength(256)]
-        public string UpdateBy { get; set; }
+        public string UpdatedBy { get; set; }
 
         [MaxLength(256)]
         public string MetaKeyword { get; set; }
